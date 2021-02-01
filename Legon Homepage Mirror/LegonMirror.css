@@ -1,0 +1,546 @@
+body {
+    background: url(Images/Mainback.png);
+    font-family: sans-serif;
+}
+
+.DivContainer {
+    background-color: white;
+    width: 900px;
+    margin: auto;
+    height: 1910px;
+    position: relative;
+    top: -1px;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+    border-radius: 0px 0px 5px 5px;
+}
+
+.TopMenu {
+    background-color: rgba(0, 0, 102, 1);
+    text-align: right;
+    color: white;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+.TopMenu ul {
+    position: relative;
+    top: 8px;
+    padding-right: 3px;
+}
+
+.TopMenu ul li {
+    display: inline;
+    text-decoration: none;
+    font-size: 12px;
+    top: 20px;
+    margin-right: 17px;
+}
+
+.TopMenu ul li:hover {
+    cursor: pointer;
+}
+
+.Heading {
+    height: 96px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.Logocontainer {
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 7px;
+}
+
+.SearchArea {
+    float: right;
+    height: 79px;
+    width: 440px;
+    text-align: right;
+}
+
+.SearchLine {
+    position: relative;
+    top: 30px;
+    box-shadow:inset 0px 0px 4px 0.5px rgba(233, 233, 233, 1);   
+    height: 31px;
+    background-color: white;
+    width: fit-content;
+    float: right;
+    border-radius: 5px;
+    right: 10px;
+    box-sizing: border-box;
+    border:rgba(233, 233, 233, 1) solid;
+    border-width:thin ;
+    padding-right: 5px;
+    padding-left: 4px;
+}
+
+input {
+    height: 20px;
+    box-sizing: border-box;
+    top: 3px;
+    position: relative;
+    outline: none;
+    width: 150px;
+    border: none;
+}
+
+input:hover {
+    width: 190px;
+}
+
+input:focus-within {
+    width: 190px;
+}
+
+.SearchIcon {
+    position: relative;
+    float: right;
+    margin-left: 5px;
+    top: 3px;
+}
+
+.NavMenu {
+    clear: both;
+    background-color: rgba(176, 139, 87, 1);
+    height: 46px;
+}
+
+.NavMenu ul {
+    background-color: rgba(0, 0, 102, 1);
+    height: 40px;
+    padding-left: 0;
+    text-align: left;
+}
+
+.NavMenu ul li {
+    position: relative;
+    right: 10px;
+    top: 10px;
+    display: inline;
+    padding: 0px 10px;
+}
+
+.HomeIcon {
+    position: relative;
+    top: 3px;
+}
+
+.NavMenu ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    font-weight: 700;
+}
+
+.NavMenu ul li a img {
+    margin-left: 10px;
+    position: relative;
+    top: -0.5px;
+}
+
+.BigCarouselContainer {
+    position: relative;
+    height: 300px;
+    box-shadow: 2px 3px 5px -2px  rgba(0,0,0,0.24);
+}
+
+.ContentContainer {
+    height: 231px;
+    background-color: white;
+}
+
+.SmallCarouselContainer {
+    padding-left: 12px;
+}
+
+.NewsLine {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background: url(Images/News_line.png);
+    height: 20px;
+    margin-left: 10px;
+    color: rgb(255, 153, 0);
+    font-size: 19px;
+    font-weight: 400;
+    width: 613px;
+}
+
+.Small {
+    width: 152px;
+    display: inline-block;
+    margin-right: 4px;
+    vertical-align: top;
+}
+
+.Small img{
+    width: 152px;
+    height: 111px;
+}
+
+.SmallCarouselContainer a {
+    text-decoration: none;
+    font-size: 12px;
+    color: rgba(66, 153, 216, 1);
+}
+
+.SmallCarouselContainer a span {
+    color: white;
+}
+
+.SmallCarouselContainer a:hover {
+    color: rgb(179, 223, 255);
+}
+
+#Slide {
+    height: 170px;
+    width: 234px;
+}
+
+.line {
+    position: relative;
+    width: 71%;
+    text-align: left;
+    top: -10px;
+}
+
+.Column {
+    display: inline-block;
+    vertical-align: top;
+    height: 142px;
+    width: 311px;
+    margin-left: 10px;
+}
+
+.Column:nth-of-type(2) {
+    vertical-align: top;
+    height: 375px;
+    width: 326px;
+}
+
+.Column:nth-of-type(3){
+    height: 813px;
+    width: 213px;
+}
+
+.ColumnTitle {
+    font: 18px 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    background-color: rgba(0, 0, 102, 1);
+    color: white;
+    padding-left: 4px;
+}
+
+
+.Events {
+    display: inline-block;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+#Day {
+    background-color:  rgba(43, 40, 111, 1);
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    width: 62px;
+    height: 28px;
+}
+
+#Day span {
+    position: relative;
+    top: 7.5px;
+}
+
+#Date {
+    color: rgba(43, 40, 111, 1);
+    text-align: center;
+    font-size: 11px;
+    margin-top: 3px;
+}
+
+.MoreEvents a {
+    text-decoration: none;
+    color: rgba(66, 153, 216, 1);
+    font-size: 13px;
+    position: relative;
+    top: 45px;
+}
+
+.Events {
+    color: rgb(75, 85, 90);
+    font-size: 13px;
+}
+
+.Events a {
+    text-decoration: none;
+    color: rgba(66, 153, 216, 1);
+    font-size: 12px;
+} 
+
+.Events a:hover, .MoreEvents a:hover {
+    color: rgb(179, 223, 255);
+}
+
+.AnnouncementList hr {
+    margin: 2.5px;
+    position: relative;
+    right: 39px;
+    top: -13px;
+    border:solid thin rgb(200, 200, 200);
+    width: 320px;
+}
+
+.AnnouncementList li {
+    list-style-type: none;
+    position: relative;
+    right: 38px;
+    top: -10px;
+}
+
+.AnnouncementList li a {
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(66, 139, 201);
+}
+
+.AnnouncementList a:hover{
+    color: rgb(179, 223, 255);
+}
+
+.FeaturedLinks {
+    display: flex;
+    flex-direction: column;
+}
+
+.FeaturedLinks a {
+    text-decoration: none;
+    color: white;
+    font-size: 13.8px;
+    font-weight: 700;
+}
+
+.FeaturedLinks a:hover {
+    color: black;
+}
+
+.FeaturedLinks1 {
+    background-color: rgb(223, 139, 12);
+}
+
+.FeaturedLinks2 {
+    background-color: rgb(247, 97, 73);
+}
+
+.FeaturedLinks3 {
+    background-color: rgb(0, 189, 238);
+}
+
+.FeaturedLinks4 {
+    background-color: rgb(247, 97, 73);
+}
+
+.FeaturedLinks5 {
+    background-color: rgb(0, 189, 238);
+}
+
+.FeaturedLinks6 {
+    background-color: rgb(223, 139, 12);
+}
+
+.FeaturedLinks7 {
+    background-color: rgb(247, 97, 73);
+}
+
+.FeaturedLinks8 {
+    background-color: rgb(61, 139, 95);
+}
+
+.FeaturedLinks9 {
+    background-color: rgb(125, 123, 123);
+}
+
+.FeaturedLinks10 {
+    background-color: rgb(0, 189, 238);
+}
+
+.FeaturedLinks11 {
+    background-color: rgb(247, 97, 73);
+}
+
+.FeaturedLinks12 {
+    background-color: rgb(61, 139, 95);
+}
+
+.FeaturedLinks13 {
+    background-color:rgb(125, 123, 123);
+}
+
+.FeaturedLinks1, .FeaturedLinks2, .FeaturedLinks3, .FeaturedLinks4, .FeaturedLinks5, .FeaturedLinks6, .FeaturedLinks7, .FeaturedLinks8, .FeaturedLinks9, .FeaturedLinks10, .FeaturedLinks11, .FeaturedLinks12, .FeaturedLinks13 {
+    justify-content: center;
+    align-items: center;
+    margin-top: 9px;
+    text-align: center;
+    padding: 0.7em 0.4em;
+}
+
+
+.FeaturedLinks1, .FeaturedLinks2, .FeaturedLinks3, .FeaturedLinks4, .FeaturedLinks5, .FeaturedLinks6, .FeaturedLinks7, .FeaturedLinks8, .FeaturedLinks9, .FeaturedLinks10, .FeaturedLinks11, .FeaturedLinks12, .FeaturedLinks13:hover {
+    cursor: pointer;
+}
+
+.FooterContainer {
+    background-color: rgb(176, 139, 87);
+    height: 343px;
+    position: relative;
+    top: 840px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.Resources {
+    background-color: rgb(237, 237, 237);
+    height: 51px;
+    margin-bottom: 4px;
+}
+
+.ResIcon {
+    display: inline;
+    position: relative;
+} 
+
+.ResBlock {
+    display: inline;
+    position: relative;
+    top: -22.5px;
+    right: -5px;
+}
+
+.ResBlock a {
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(103, 139, 204);
+    font-weight: 500;
+    margin-right: 45px;
+}
+
+.ResBlock a:hover {
+    color: rgb(179, 223, 255);
+}
+
+.BottomNav {
+    background-color: rgb(43, 40, 111);
+    height: 242px;
+    margin-bottom: 1px;
+    padding-left: 3px;
+}
+
+.NavColumn {
+    display: inline-block;
+    width: 152px;
+    vertical-align: top;
+    margin-left: 10px;
+    position: relative;
+    top: 10px;
+    margin-bottom: 0px;
+}
+
+.NavColumn:first-of-type {
+    width: 211px;
+}
+
+.NavColumnHeader {
+    color: rgb(255, 191, 13);
+    font-size: 15px;
+    font-weight: bolder;
+    position: relative;
+    right: -15px;
+}
+
+.NavColumn ul li {
+    list-style-type: none;
+    font-size: 13px;
+    color: rgb(105, 125, 127);
+    margin-bottom: 3px;
+    position: relative;
+    left: -25px;
+    top: -5px;
+}
+
+.NavColumn ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    position: relative;
+}
+
+#link {
+    top: -4px;
+    left: 2px;
+}
+
+#LegonAccra {
+    left: -8.9px;
+}
+
+.NavColumn ul li a:hover {
+    color: rgb(179, 223, 255);
+}
+
+.NavColumn ul li img {
+    position: relative;
+    left: -9px;
+    top: 2px;
+    margin-bottom: 1px;
+}
+
+.SocialFooter {
+    background: rgb(43, 40, 52);
+    height: 44px;
+    border-radius: 0px 0px 5px 5px;
+}
+.LeftSocial {
+    float: left;
+    color: rgb(93, 129, 125);
+    font-size: 11px;
+    position: relative;
+    top: 15px;
+    margin-left: 15px;
+}
+
+.RightSocial {
+    float: right;
+    position: relative;
+    top: 10px;
+    margin-right:   5px;
+}
+
+.RightSocial a {
+    margin-right: 10px;
+}
+
+.LeftSocial a {
+    text-decoration: none;
+    color: white;
+}
+
+.LeftSocial a:hover {
+    color: rgb(179, 223, 255);
+}
+
+.TwoBackContainers{
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+    top: 44.8%;
+}
+
+.BackLeft {
+    float: left;
+    margin-left: 125px;
+}
+
+.BackRight {
+    float: right;
+    margin-right: 125px;
+}
